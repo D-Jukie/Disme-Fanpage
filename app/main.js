@@ -9,7 +9,7 @@ const listen = require('./listen')
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
-app.set('port', config.PORT || 3000)
+app.set('port', process.env.PORT || 8080);
 
 global.client = new Object();
 global.config = config;
