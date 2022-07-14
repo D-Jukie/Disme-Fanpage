@@ -1,0 +1,21 @@
+{
+  "name": "Disme_ChatBot",
+  "version": "1.0.0",
+  "description": "Một mã nguồn chatbot dành cho trang facebook",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "node --trace-warnings --use_strict --async-stack-traces index"
+  },
+  "author": "D-Jukie",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "fast-speedtest-api": "^0.3.2",
+    "fs-extra": "^10.1.0",
+    "moment-timezone": "^0.5.34",
+    "node-fetch": "^2.1.2"
+  }
+}
